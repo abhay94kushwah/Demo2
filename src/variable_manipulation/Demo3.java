@@ -20,5 +20,16 @@ public class Demo3 {
         double divide=a/b;
 
         System.out.println("divide of a and b"+divide);
+
+       double c=4.5;
+       double d=6.5;
+
+       System.out.println("Advance sum of a and b"+(a+b));
+
+       System.out.println("Advance sub of a and b "+(a-b));
+
+       System.out.println("Advance multi of a and b"+(a*b));
+
+       System.out.println("Advance divide of a and b"+(a/b));
     }
 }
