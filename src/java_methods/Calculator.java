@@ -1,5 +1,5 @@
 package java_methods;
-
+import java.util.Scanner;
 public class Calculator {
     public void addition(){
         int a=5;
@@ -29,13 +29,25 @@ public class Calculator {
 
         System.out.println("Division is :"+divide);
     }
-
     public static void main(String[] args){
 
+
         Calculator obj1=new Calculator();
-        obj1.addition();
-        obj1.subtraction();
-        obj1.multi();
-        obj1.division();
+
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("please enter your choice : 1 for add,2 for sub,3 for multi,4 for division");
+        int choice= scanner.nextInt();
+        if(choice==1){
+            obj1.addition();
+        }
+        else if(choice==2){
+            obj1.subtraction();
+        }
+        else if(choice==3){
+            obj1.multi();
+        }
+        else if(choice==4){
+            obj1.division();
+        }
     }
 }
