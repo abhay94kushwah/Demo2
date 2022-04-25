@@ -1,7 +1,7 @@
 package assignment;
 public class Armstrong_number {
     public static void main(String[] args){
-        int num=154,number,a,total =0;
+        int num=153,number,a,total =0;//a number whose qube of every no.'s sum is the same no.ex 1+(5*5*5)+(3*3*3)=153
         number=num;
         while(number!=0){
             a= number%10;
