@@ -5,15 +5,15 @@ public class Palindrome_number {
         System.out.println("Enter a no. to check whether it is palindrome or not");
         Scanner sc=new Scanner(System.in);// a number that is same after reverse ex 121,3223,etc
         int a=sc.nextInt();
-        int rem=a;
+        int ram=a;
         int temp=0;
 
         while(a>0){
-            int feb=a%10;
-            temp=(temp*10)+feb;
+            int rem=a%10;
+            temp=(temp*10)+rem;
             a=a/10;
         }
-        if(rem==temp){
+        if(ram==temp){
             System.out.println("it is a palindrome no. ");
         }
         else{
