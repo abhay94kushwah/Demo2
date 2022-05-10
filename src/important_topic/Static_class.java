@@ -1,5 +1,6 @@
 package important_topic;
-// in static method we can not create object that'swhy we can not use non static method inside the Static method
+// in static method we can not create object that'swhy we can not use non static method inside the Static method.
+// we can not override Static class.
 public class Static_class {
     public static String name="Agra"; //Static data
     public String name1; //non Static data
