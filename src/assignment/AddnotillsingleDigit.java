@@ -2,7 +2,8 @@ package assignment;
 
 public class AddnotillsingleDigit {
     public static void main(String[] args) {
-        int n=12345;
+        String s="12345";
+        int n=Integer.parseInt(s);
         int r,sum = 0;
         while (n>9){
             sum=0;
